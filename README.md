@@ -22,6 +22,19 @@ git clone https://github.com/Code0xa/netscan
 cd netscan
 ```
 
+3. Setup python virtual environments:
+For windows:
+```cmd
+python -m venv .venv
+.venv/Scripts/activate
+```
+
+For linux and mac:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
 ## Usage
 Run the interactive shell:
 ```bash
