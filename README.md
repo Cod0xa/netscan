@@ -11,18 +11,14 @@ A Python network scanning tool combining Scapy and Nmap functionality with a com
 - Supports both Scapy and Nmap engines
 
 ## Installation
-1. Install requirements:
-```bash
-pip install -r requirements.txt
-```
 
-2. Clone repository:
+1. Clone repository:
 ```bash
 git clone https://github.com/Code0xa/netscan
 cd netscan
 ```
 
-3. Setup python virtual environments:
+2. Setup python virtual environments:
 For windows:
 ```cmd
 python -m venv .venv
@@ -33,6 +29,11 @@ For linux and mac:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+```
+
+3. Install requirements:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
