@@ -64,9 +64,6 @@ netscan/
 - python-nmap >= 0.7.1
 - rich >= 12.0.0
 
-## License
-MIT License
-
 ## Disclaimer
 Only use on networks you have permission to scan.  
 Unauthorized scanning may violate laws and network policies.
