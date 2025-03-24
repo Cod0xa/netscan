@@ -19,6 +19,7 @@ cd netscan
 ```
 
 2. Setup python virtual environments:
+
 For windows:
 ```cmd
 python -m venv .venv
