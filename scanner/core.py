@@ -77,7 +77,7 @@ class NetworkScanner:
                 print(f"{Fore.CYAN}Detected OS: {Fore.WHITE}{os_info.get('os', 'Unknown')}")
                 print(f"{Fore.CYAN}Accuracy: {Fore.WHITE}{os_info.get('accuracy', 'N/A')}%")
             else:
-                print(f"{Fore.YELLOW}Unexpected OS info format: {type(os_info)}")
+        print(f"{Fore.YELLOW}Unexpected OS info format: {type(os_info)}")
 
     print(f"\n{Fore.GREEN}=== Full Scan Completed ===")
 
