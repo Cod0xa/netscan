@@ -21,11 +21,6 @@ git clone https://github.com/Code0xa/netscan
 cd netrecon
 ```
 
-3. Install package:
-```bash
-pip install -e .
-```
-
 ## Usage
 Run the interactive shell:
 ```bash
