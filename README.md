@@ -33,7 +33,7 @@ python netscan.py
 |---------|-------------|
 | `scan <target> [type]` | Perform network scan<br>Types: `quick` (host discovery), `ports` (port scan), `full` (complete scan), `vuln` (for vulnerabilities)
 | `help` | Show available commands |
-| `exit` | Quit program |
+| `quit` | Quit program |
 | `clear`| Clear the screen |
 
 ### Example commands
