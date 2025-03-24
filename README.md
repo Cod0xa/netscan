@@ -1,4 +1,3 @@
-```markdown
 # NetScan Network Scanner
 
 A Python network scanning tool combining Scapy and Nmap functionality with a command-line interface.
@@ -13,12 +12,12 @@ A Python network scanning tool combining Scapy and Nmap functionality with a com
 ## Installation
 1. Install requirements:
 ```bash
-pip install rich pyfiglet scapy python-nmap ipaddress
+pip install -r requirements.txt
 ```
 
 2. Clone repository:
 ```bash
-git clone https://github.com/yourusername/netrecon.git
+git clone https://github.com/Code0xa/netscan
 cd netrecon
 ```
 
@@ -30,15 +29,16 @@ pip install -e .
 ## Usage
 Run the interactive shell:
 ```bash
-python -m netscan
+python netscan.py
 ```
 
 ### Available commands
 | Command | Description |
 |---------|-------------|
-| `scan <target> [type]` | Perform network scan<br>Types: `quick` (host discovery), `ports` (port scan), `full` (complete scan) |
+| `scan <target> [type]` | Perform network scan<br>Types: `quick` (host discovery), `ports` (port scan), `full` (complete scan) | `vuln` (for vulnerabilities)
 | `help` | Show available commands |
 | `exit` | Quit program |
+| `clear`| Clear the screen |
 
 ### Example commands
 ```bash
@@ -50,8 +50,7 @@ scan 172.16.1.1 full
 ## Project Structure
 ```
 netscan/
-├── app.py          # Main application
-├── cli.py          # Command interface
+├── netscan.py          # Main application
 └── scanner/
     ├── core.py     # Main scanner logic
     ├── scapy.py    # Scapy implementations
