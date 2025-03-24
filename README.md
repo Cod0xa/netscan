@@ -6,6 +6,7 @@ A Python network scanning tool combining Scapy and Nmap functionality with a com
 - Host discovery (ICMP ping)
 - Port scanning (TCP SYN)
 - Full network scans with OS detection
+- Vulnerabilities scans
 - Color-coded console output
 - Supports both Scapy and Nmap engines
 
@@ -18,7 +19,7 @@ pip install -r requirements.txt
 2. Clone repository:
 ```bash
 git clone https://github.com/Code0xa/netscan
-cd netrecon
+cd netscan
 ```
 
 ## Usage
@@ -30,7 +31,7 @@ python netscan.py
 ### Available commands
 | Command | Description |
 |---------|-------------|
-| `scan <target> [type]` | Perform network scan<br>Types: `quick` (host discovery), `ports` (port scan), `full` (complete scan) | `vuln` (for vulnerabilities)
+| `scan <target> [type]` | Perform network scan<br>Types: `quick` (host discovery), `ports` (port scan), `full` (complete scan), `vuln` (for vulnerabilities)
 | `help` | Show available commands |
 | `exit` | Quit program |
 | `clear`| Clear the screen |
